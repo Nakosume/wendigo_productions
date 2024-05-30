@@ -1,0 +1,238 @@
+.logPage {
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logTitle {
+    font-size: 33px;
+    color: #F0F0F0;
+    margin-bottom: 30px;
+}
+
+.kuti-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kuti-img {
+    margin-top: 7%;
+    width: 80%;
+}
+
+.logNavi {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgLink .wendigoSmall {
+    max-width: 50%;
+    margin-left: 10px;
+}
+
+.imgLink .backArrow {
+    width: 10vw;
+    height: 4.5vh;
+    padding-top: 5px;
+}
+
+/**Log section */
+.logSection {
+    background-color: #2a2a2a;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+}
+
+.forms-container {
+    margin: auto;
+    width: 360px;
+}
+
+.forms-container input {
+    background-color: #2a2a2a;
+    border-radius: 11px;
+    width: 353px;
+    border: 2px solid #8C8C8C;
+    height: 50px;
+    font-size: 18px;
+    color: #8C8C8C;
+}
+
+.forms-container input:focus {
+    background-color: #2a2a2a;
+    color: #8C8C8C;
+    border-radius: 11px;
+    width: 353px;
+    border: 2px solid #F0F0F0;
+    height: 50px;
+    font-size: 18px;
+}
+
+.forms-container p {
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.fgt-password {
+    color: #EAA234;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: end;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.logSection button {
+    background-color: #d03d29;
+    font-size: 23px;
+    border-radius: 12px;
+    color: #F0F0F0;
+    width: 120px;
+    height: 40px;
+}
+
+@media (min-width: 762px) {
+    .logPage {
+        background-color: #f0f0f0;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .displayNav {
+        width: 65vw;
+        height: 100vh;
+    }
+
+    .kuti-img {
+        width: 50%;
+        position: absolute;
+        bottom: 0%;
+        margin-left: 5%;
+    }
+
+    .logNavi {
+        margin-left: 6.5%;
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 30%;
+    }
+
+    .imgLink{
+        max-width: fit-content;
+        margin: 0%;
+    }
+
+    .wendigoSmall {
+        min-width: 200%;
+        margin-left: 0%;
+        position: relative;
+        left: -60%;
+    }
+
+    .backArrow {
+        max-width: 25%;
+    }
+
+    .forms-container {
+        margin: auto;
+        width: 350px;
+        margin-top: 200px;
+    }
+
+    .forms-container p {
+        font-size: 18px;
+        text-align: start;
+        margin-bottom: 10px;
+        font-weight: 400;
+        color: #8C8C8C;
+
+    }
+
+    .forms-container input {
+        background-color: #2a2a2a;
+        border-radius: 11px;
+        width: 342px;
+        border: 2px solid #8C8C8C;
+        height: 45px;
+        font-size: 16px;
+        color: #8C8C8C;
+    }
+
+    .forms-container input:focus {
+        background-color: #2a2a2a;
+        color: #8C8C8C;
+        border-radius: 11px;
+        width: 342px;
+        border: 2px solid #F0F0F0;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .fgt-password {
+        color: #EAA234;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: end;
+        margin-bottom: 25px;
+        text-decoration: underline;
+    }
+
+    .logSection button {
+        background-color: #d03d29;
+        font-size: 18px;
+        border-radius: 12px;
+        color: #F0F0F0;
+        width: 120px;
+        height: 40px;
+        margin-right: 0px;
+    }
+
+    .logSection {
+        width: 35vw;
+        height: 100vh;
+        box-shadow: #d03c29 0px 0px 0px 0px,
+            #eaa134 0px 0px 0px 0px,
+            #f1da90 0px 0px 0px 0px;
+        animation: pulse 6s ease-in-out infinite;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logSection .logTitle {
+        display: none;
+    }
+
+    @keyframes pulse {
+        0% {
+            box-shadow: #d03c29 0px 0px 0px 5px,
+                #eaa134 0px 0px 0px 10px,
+                #f1da90 0px 0px 0px 15px;
+        }
+
+        50% {
+            box-shadow: #d03c29 0px 0px 0px 15px,
+                #eaa134 0px 0px 0px 30px,
+                #f1da90 0px 0px 0px 45px;
+        }
+
+        100% {
+            box-shadow: #d03c29 0px 0px 0px 5px,
+                #eaa134 0px 0px 0px 10px,
+                #f1da90 0px 0px 0px 15px;
+        }
+    }
+}

@@ -1,0 +1,277 @@
+.imgLink .wendigoSmall {
+    max-width: 50%;
+    margin-left: 10px;
+}
+
+.imgLink .backArrow {
+    width: 10vw;
+    height: 4.5vh;
+    padding-top: 5px;
+}
+
+.admi-navi{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.admi-page{
+    background-color: #f0f0f0;
+    /* /* height: 100vh; */
+   /*  display: flex;
+    flex-direction: row;  */
+}
+
+.profile-cont{
+    background-color: #2a2a2a;
+}
+
+.photo-cont{
+    display: none;
+}
+
+.img-link .wendigo-small {
+    max-width: 50%;
+
+}
+
+.img-link .back-arrow {
+    width: 10vw;
+    height: 4.5vh;
+    padding-top: 5px;}
+
+
+.add-project h1{
+    font-size: 32px;
+    color: #2A2A2A;
+    margin-bottom: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.add-project button{
+    background-color: #D03D29;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    justify-content: center;
+    border-color: transparent;
+}
+
+.newproject-container p {
+    font-size: 18px;
+    text-align: start;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #8C8C8C;
+}
+
+.members-project div{
+    display: flex;
+    flex-direction: row;
+}
+.newproject-container h2{
+    color: #8C8C8C;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.newproject-container .text-input{
+    background-color: #F0F0F0;
+    border-radius: 11px;
+    width: 330px;
+    border: 1.54px solid #8C8C8C;
+    height: 45px;
+    font-size: 14px;
+    color: #8C8C8C;
+}
+
+.newproject-container .text-input:focus {
+    background-color: #F0F0F0;
+    color: #8C8C8C;
+    border-radius: 11px;
+    width: 330px;
+    border: 2px solid #F0F0F0;
+    height: 45px;
+    font-size: 14px;
+}
+
+
+
+@media (min-width: 762px) {
+    .admi-page {
+        background-color: #f0f0f0;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .profile-cont {
+    width: 35vw;
+    height: 100vh;
+    box-shadow: #d03c29 0px 0px 0px 0px,
+        #eaa134 0px 0px 0px 0px,
+        #f1da90 0px 0px 0px 0px;
+    animation: pulse 6s ease-in-out infinite;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2a2a;
+}
+.photo-cont{
+    width: 180px;
+    margin: auto;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.admi-navi{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.profile-cont {
+    width: 35vw;
+    height: 100vh;
+}
+
+.profile-cont h1{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.profile-photo{
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.img-link .wendigo-small {
+    max-width: 40%;
+    width: 25vw;
+height: 5.5vh;
+}
+
+.img-link .back-arrow {
+    width: 3.3vw;
+    height: 6vh;
+    padding-top: 5px;
+    margin-right: 20px;
+}
+
+.newproject-container{
+    margin: auto;
+    width: 338px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newproject-container p {
+    font-size: 16px;
+    text-align: start;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #8C8C8C;
+}
+
+.newproject-container .text-input{
+    background-color: #F0F0F0;
+    border-radius: 11px;
+    width: 330px;
+    border: 1.54px solid #8C8C8C;
+    height: 35px;
+    font-size: 14px;
+    color: #8C8C8C;
+}
+
+.newproject-container .text-input:focus {
+    background-color: #F0F0F0;
+    color: #8C8C8C;
+    border-radius: 11px;
+    width: 330px;
+    border: 2px solid #F0F0F0;
+    height: 35px;
+    font-size: 14px;
+}
+
+.add-project{
+    text-align: center;
+}
+
+.add-project h1{
+    font-size: 24px;
+    color: #2A2A2A;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.add-project button{
+    background-color: #D03D29;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.plus-icon{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+
+.members-project{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.user-tag{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.members-project div{
+    display: flex;
+    flex-direction: row;
+}
+.newproject-container h2{
+    color: #8C8C8C;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.members-project input{
+    width: 20px;
+}
+
+.members-project h2{
+    width: 140px;
+}
+
+.two-members{
+    display: flex;
+    flex-direction: row;
+}
+#submit-btn{
+    background-color: #d03d29;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 12px;
+    border-color: transparent;
+    color: #F0F0F0;
+    width: 110px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+}

@@ -1,0 +1,134 @@
+
+.contactPage {
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.square{
+    height: 7vh;
+    width: 7vh;
+    background-color: #2A2A2A;
+    margin-left: 2vh;
+    margin-top: 15vh;
+    position: absolute;
+    z-index: 5;
+}
+
+
+
+.abtTitle{
+    color:  #F0F0F0;
+    margin-top: 30px;
+    margin-left: 2vh;
+    font-size: 33px;
+
+}
+
+.abtNum{
+    color: #F0F0F0;
+    margin-top: -15px;
+    margin-left: 2.3vh;
+    font-size: 18px;
+}
+
+.abtMail{
+    color:  #F0F0F0;
+    margin-left: 2.3vh;
+    font-size: 18px;
+}
+
+
+.rectangle{
+    height: 25vh;
+    width: 35vh;
+    margin-left: 5vh;
+    margin-top: 10vh;
+    
+    background-color: #D03D29;
+    box-shadow:
+10px 10px #EAA234,
+20px 20px #F1DB90;
+
+
+}
+
+
+.Crocodile{
+    margin-left: 4vh;
+    margin-top: 3vh;
+    height: 55vh;
+    width: 40vh;
+    position:static;
+}
+
+
+@media (min-width: 762px) {
+
+   
+
+    .square{
+        height: 10vh;
+        width: 10vh;
+        background-color: #2A2A2A;
+        margin-left: 85vh;
+        margin-top: 25vh;
+        position: absolute;
+        
+    }
+    
+
+    .abtTitle{
+        color:  #F0F0F0;
+        margin-top: 90px;
+        margin-left: 5.5vh;
+        font-size: 45px;
+    
+    }
+    
+    .abtNum{
+        color: #F0F0F0;
+        margin-top: -25px;
+        margin-left: 6vh;
+        font-size: 30px;
+    }
+    
+    .abtMail{
+        color:  #F0F0F0;
+        margin-top: -20px;
+        margin-left: 6vh;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    
+    .rectangle{
+        height: 45vh;
+        width: 65vh;
+        margin-left: 90vh;
+        margin-top: 16vh;
+        
+        background-color: #D03D29;
+        box-shadow:
+    10px 10px #EAA234,
+    20px 20px #F1DB90;
+    
+    
+    }
+
+    .Crocodile{
+        margin-left: 4vh;
+    margin-top: -64.5vh;
+        height: 90vh;
+        width: 80vh;
+        position:absolute;
+        
+    }
+
+.imgLink{
+    width: 40vh;  
+
+}
+}

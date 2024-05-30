@@ -1,0 +1,25 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    display: block;
+  position: relative;
+}
+
+.bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+
+.bm-cross {
+  background: #f0f0f0;
+}
+
+.bm-menu a {
+    color: #f0f0f0;
+}
+
+@media (min-width: 762px){
+    .bm-burger-button{
+        display: none;
+    }
+}

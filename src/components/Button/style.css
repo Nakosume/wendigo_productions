@@ -1,0 +1,44 @@
+
+.button-component {
+    border: none;
+    background-color: #d03d29;
+    padding: 0.5% 2%;
+    border-radius: 15px;
+}
+
+.link-component {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#hide-mobile{
+    margin-right: 0%;
+    display: none;
+}
+
+#login-btn{
+    font-size: 24px;
+}
+
+@media (min-width: 762px) {
+    .button-component {
+        border: none;
+        background-color: #d03d29;
+        padding: 0.5% 2%;
+        border-radius: 15px;
+    }
+
+    .link-component {
+        text-decoration: none;
+        color: #f0f0f0;
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    #hide-mobile{
+        margin-right: 10%;
+        display: block;
+    }
+}

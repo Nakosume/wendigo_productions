@@ -1,0 +1,478 @@
+/** collage*/
+.about-collage {
+    height: fit-content;
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-collage img {
+    width: 100%;
+}
+
+.about-image-mobile {
+    max-width: 70%;
+    display: block;
+}
+
+.about-image-desktop {
+    width: 0%;
+    display: none;
+}
+
+/**About */
+
+.about-wendigo {
+    width: 100%;
+    background-color: #d03d29;
+    padding: 5% 0%;
+}
+
+.about-wendigo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.about-wendigo-container p,
+.about-wendigo-container h1 {
+    margin-left: 5%;
+    width: 90%;
+}
+
+.about-wendigo-container img {
+    max-width: 80%;
+    margin-top: 10%;
+}
+
+.wendigo-values {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wendigo-values-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wendigo-values-bullet {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wendigo-values-bullet h2 {
+    margin: 0%;
+    text-align: center;
+}
+
+.wendigo-values-bullet p {
+    margin: 0%;
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+.wendigo-values-bullet img {
+    max-width: 20%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.wendigo-services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.wendigo-services-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.wendigo-services-bullet {
+    width: 80%;
+    background-color: #eaa234;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.wendigo-services-bullet img {
+    width: 80%;
+    margin-bottom: 5%;
+    /*position: relative;
+    bottom: 30%;*/
+}
+
+.wendigo-services-bullet h2,
+.wendigo-services-bullet p {
+    width: 80%;
+    margin: 0%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: #2a2a2a;
+}
+
+#kirby {
+    width: 120%;
+}
+
+/**Team */
+
+.about-team {
+    background-color: #f0f0f0;
+    color: #2a2a2a;
+}
+
+.cannon-container {
+    width: 100%;
+}
+
+.cannon-container img {
+    width: 90%;
+}
+
+.team-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+}
+
+.team-title h1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 32px;
+    color: #2a2a2a;
+}
+
+#title-color {
+    color: #d03d29;
+}
+
+.team-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-bullet {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.team-image {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-image img {
+    width: 100%;
+}
+
+.team-social {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.team-social img {
+    width: 50%;
+}
+
+.team-bullet-info {
+    width: 90%;
+}
+
+.team-bullet-info h2 {
+    color: #d03d29;
+    margin: 0%;
+}
+
+.team-bullet-info div {
+    font-size: xx-large;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.team-bullet-info h6 {
+    margin: 0%;
+}
+
+#team-img-resize {
+    width: 80%;
+}
+
+@media (min-width: 762px) {
+
+    /** collage*/
+    .about-collage {
+        height: fit-content;
+        width: 100%;
+        background-color: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-collage img {
+        width: 100%;
+    }
+
+    .about-image-mobile {
+        width: 0%;
+        display: none;
+    }
+
+    .about-image-desktop {
+        width: 100%;
+        display: block;
+    }
+
+    /**About */
+
+    .about-wendigo {
+        width: 100%;
+        background-color: #d03d29;
+        padding: 5% 0%;
+    }
+
+    .about-wendigo-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-wendigo-container p,
+    .about-wendigo-container h1 {
+        margin-left: 5%;
+        width: 60%;
+    }
+
+    .about-wendigo-container img {
+        max-width: 30%;
+        margin-top: 0%;
+    }
+
+    .wendigo-values {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wendigo-values-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .wendigo-values-bullet {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wendigo-values-bullet h2,
+    .wendigo-values-bullet p {
+        margin: 0%;
+        text-align: center;
+    }
+
+    .wendigo-values-bullet img {
+        max-width: 30%;
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+
+    .wendigo-services {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .wendigo-services-container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 3%;
+    }
+
+    .wendigo-services-bullet {
+        width: 22%;
+        background-color: #eaa234;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+        padding: 2%;
+        border-radius: 25px;
+    }
+
+    .wendigo-services-bullet img {
+        width: 80%;
+        margin-bottom: 5%;
+        /*position: relative;
+    bottom: 30%;*/
+    }
+
+    .wendigo-services-bullet h2,
+    .wendigo-services-bullet p {
+        width: 80%;
+        margin: 0%;
+        margin-bottom: 2%;
+        text-align: center;
+        color: #2a2a2a;
+    }
+
+    #kirby {
+        width: 120%;
+    }
+
+    /**Team */
+
+    .about-team {
+        background-color: #f0f0f0;
+        color: #2a2a2a;
+    }
+
+    .cannon-container {
+        width: 100%;
+    }
+
+    .cannon-container img {
+        width: 90%;
+    }
+
+    .team-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .team-title h1 {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 96px;
+        color: #2a2a2a;
+    }
+
+    #title-color {
+        color: #d03d29;
+    }
+
+    .team-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team-bullet {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 5%;
+    }
+
+    .team-image {
+        width: 40%;
+    }
+
+    .team-image img {
+        width: 100%;
+    }
+
+    .team-social {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team-social img {
+        width: 50%;
+    }
+
+    .team-bullet-info {
+        width: 40%;
+    }
+
+    .team-bullet-info h2 {
+        color: #d03d29;
+        font-size: 40px;
+        margin: 0%;
+    }
+
+    .team-bullet-info div {
+        font-size: xx-large;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+
+    .team-bullet-info h6 {
+        margin: 0%;
+    }
+
+    #team-img-resize {
+        width: 80%;
+    }
+
+    #team-reverse {
+        flex-direction: row-reverse;
+    }
+}
