@@ -55,7 +55,7 @@ export function Header () {
         <ul>
           <NavLister />
         </ul>
-        <Button url='/logIn' text='Login' cssId='hide-mobile' />
+        <Button url='/wendigo_productions/logIn' text='Login' cssId='hide-mobile' />
         <BurgerMenu links={BurgerLister} />
       </header>
       <Outlet />
