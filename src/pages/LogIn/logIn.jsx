@@ -37,8 +37,8 @@ export function LogIn() {
     <main className='logPage'>
       <div className='displayNav'>
         <div className='logNavi'>
-          <Link to='/' className='imgLink'><img src={backArrow} alt='Back Arrow' className='backArrow' /></Link>
-          <Link to='/' className='imgLink'><img src={logo} alt='Wendigo Logo' className='wendigoSmall' /></Link>
+          <Link to='/wendigo_productions/' className='imgLink'><img src={backArrow} alt='Back Arrow' className='backArrow' /></Link>
+          <Link to='/wendigo_productions/' className='imgLink'><img src={logo} alt='Wendigo Logo' className='wendigoSmall' /></Link>
         </div>
         <div className='kuti-container'>
           <img src={Kuti} className='kuti-img' />
