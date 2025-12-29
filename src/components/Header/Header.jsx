@@ -50,8 +50,8 @@ export function Header () {
   return (
     <>
       <header id='nav-bar'>
-        <Link to='/' className='img-link'><img src={mobileLogo} alt='Wendigo Logo' className='wendigo-mobile' /></Link>
-        <Link to='/' className='img-link'><img src={desktopLogo} alt='Wendigo Logo' className='wendigo-desktop' /></Link>
+        <Link to='/wendigo_productions/' className='img-link'><img src={mobileLogo} alt='Wendigo Logo' className='wendigo-mobile' /></Link>
+        <Link to='/wendigo_productions/' className='img-link'><img src={desktopLogo} alt='Wendigo Logo' className='wendigo-desktop' /></Link>
         <ul>
           <NavLister />
         </ul>
