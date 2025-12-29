@@ -5,7 +5,7 @@ export default function App () { // Components 101, make function
   return ( // return whatever the component may be using HTML, <> </> this be called a fragment, its an empty tag lol makes it clean tho
     <BrowserRouter>
       <Routes>
-        <Route path='wendigo_productions/' ={<Landing />} />
+        <Route path='wendigo_productions/' element={<Landing />} />
         <Route path='wendigo_productions/aboutUs' element={<AboutUs />} />
         <Route path='wendigo_productions/contactUs' element={<ContactUs />} />
         <Route path='wendigo_productions/projects' element={<Projects />} />
